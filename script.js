@@ -3,7 +3,7 @@ cross = true;
 
 audio = new Audio('music.mp3');
 audiogo = new Audio('gameover.mp3');
-setTimeout(() => {
+setTimeout(() => { 
     audio.play()
 }, 1000);
 document.onkeydown = function (e) {
